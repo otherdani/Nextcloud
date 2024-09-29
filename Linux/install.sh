@@ -55,3 +55,39 @@ $$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$
 echo 'Setting up docker +'
 echo 'Setting pull image +'
 echo 'Setting up container -'
+sudo docker run -d -p 443:443 --name Nextcloud linuxserver/nextcloud
+clear
+echo '''
+ 
+$$\   $$\                       $$\               $$\                           $$\ 
+$$$\  $$ |                      $$ |              $$ |                          $$ |
+$$$$\ $$ | $$$$$$\  $$\   $$\ $$$$$$\    $$$$$$$\ $$ | $$$$$$\  $$\   $$\  $$$$$$$ |
+$$ $$\$$ |$$  __$$\ \$$\ $$  |\_$$  _|  $$  _____|$$ |$$  __$$\ $$ |  $$ |$$  __$$ |
+$$ \$$$$ |$$$$$$$$ | \$$$$  /   $$ |    $$ /      $$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |
+$$ |\$$$ |$$   ____| $$  $$<    $$ |$$\ $$ |      $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
+$$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$$$ |
+\__|  \__| \_______|\__/  \__|   \____/  \_______|\__| \______/  \______/  \_______|
+                                                                                    
+                                                                                    
+                                                                                    
+'''
+echo 'Setting up docker +'
+echo 'Setting pull image -'
+echo 'Setting up container +'
+clear 
+echo                            
+echo    .---.      .---.   .-----.  
+echo   / .  |     / .  |  /  -.   \ 
+echo  / /|  |    / /|  |  '-' _'  | 
+echo / / |  |_  / / |  |_    |_  <  
+echo/  '-'    |/  '-'    |.-.  |  | 
+echo`----|  |-'`----|  |-'\ `-'   / 
+echo     `--'       `--'   `----''  
+echo
+echo 'Done webui port opened on 443'
+# Start a background process
+sleep 5 &
+pid=$!
+ 
+# Wait for the specific process to finish
+wait $pid
