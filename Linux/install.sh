@@ -36,7 +36,7 @@ $$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$
 echo 'Setting up docker +'
 echo 'Setting pull image -'
 echo 'Setting up container -'
-sudo docker pull lscr.io/linuxserver/Nextcloud
+sudo docker pull linuxserver/nextcloud
 clear
 echo '''
  
