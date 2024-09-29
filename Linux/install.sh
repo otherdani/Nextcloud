@@ -15,7 +15,7 @@ $$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$
                                                                                     
 '''
 echo 'Setting up docker -'
-echo 'Setting up port 80 -'
+echo 'Pull image -'
 echo 'Setting up container -'
 sudo apt install docker.io docker-compose
 clear
@@ -34,6 +34,24 @@ $$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$
                                                                                     
 '''
 echo 'Setting up docker +'
-echo 'Setting up port 80 -'
+echo 'Setting pull image -'
 echo 'Setting up container -'
-
+sudo docker pull lscr.io/linuxserver/Nextcloud
+clear
+echo '''
+ 
+$$\   $$\                       $$\               $$\                           $$\ 
+$$$\  $$ |                      $$ |              $$ |                          $$ |
+$$$$\ $$ | $$$$$$\  $$\   $$\ $$$$$$\    $$$$$$$\ $$ | $$$$$$\  $$\   $$\  $$$$$$$ |
+$$ $$\$$ |$$  __$$\ \$$\ $$  |\_$$  _|  $$  _____|$$ |$$  __$$\ $$ |  $$ |$$  __$$ |
+$$ \$$$$ |$$$$$$$$ | \$$$$  /   $$ |    $$ /      $$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |
+$$ |\$$$ |$$   ____| $$  $$<    $$ |$$\ $$ |      $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
+$$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$$$ |
+\__|  \__| \_______|\__/  \__|   \____/  \_______|\__| \______/  \______/  \_______|
+                                                                                    
+                                                                                    
+                                                                                    
+'''
+echo 'Setting up docker +'
+echo 'Setting pull image +'
+echo 'Setting up container -'
