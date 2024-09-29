@@ -1,6 +1,6 @@
 sudo apt update sudo apt upgrade -y
 clear
-echo -e '''
+echo '''
  
 $$\   $$\                       $$\               $$\                           $$\ 
 $$$\  $$ |                      $$ |              $$ |                          $$ |
@@ -14,10 +14,12 @@ $$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$
                                                                                     
                                                                                     
 '''
-echo -e 'Setting up docker -'
+echo 'Setting up docker -'
+echo 'Setting up port 80 -'
+echo 'Setting up container -'
 sudo apt install docker.io docker-compose
 clear
-echo -e '''
+echo '''
  
 $$\   $$\                       $$\               $$\                           $$\ 
 $$$\  $$ |                      $$ |              $$ |                          $$ |
@@ -31,4 +33,7 @@ $$ | \$$ |\$$$$$$$\ $$  /\$$\   \$$$$  |\$$$$$$$\ $$ |\$$$$$$  |\$$$$$$  |\$$$$$
                                                                                     
                                                                                     
 '''
-echo -e 'Setting up docker +'
+echo 'Setting up docker +'
+echo 'Setting up port 80 -'
+echo 'Setting up container -'
+
