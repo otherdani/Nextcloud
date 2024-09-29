@@ -75,15 +75,6 @@ echo 'Setting up docker +'
 echo 'Setting pull image -'
 echo 'Setting up container +'
 clear 
-echo                            
-echo    .---.      .---.   .-----.  
-echo   / .  |     / .  |  /  -.   \ 
-echo  / /|  |    / /|  |  '-' _'  | 
-echo / / |  |_  / / |  |_    |_  <  
-echo/  '-'    |/  '-'    |.-.  |  | 
-echo`----|  |-'`----|  |-'\ `-'   / 
-echo     `--'       `--'   `----''  
-echo
 echo 'Done webui port opened on 443'
 # Start a background process
 sleep 5 &
